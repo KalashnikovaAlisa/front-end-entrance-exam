@@ -1,13 +1,227 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="./js/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <script src="js/input.js" defer></script>
+  <script src="js/autosaving.js" defer></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="bento-flexbox">
+      <div class="profile-img">
+        <img src="public/profileImg.png" alt="Profile Picture" />
+      </div>
+
+      <div class="namebox">
+        <div class="greeting" contenteditable="true">Hello 👋🏻 I’m</div>
+        <div class="your-info">
+          <div class="name" contenteditable="true">Karthik SR</div>
+          <div class="role" contenteditable="true">UX/UI Designer</div>
+        </div>
+      </div>
+
+      <div class="languages-box">
+        <div class="title" contenteditable="true">Languages</div>
+        <div class="language-list">
+          <div class="language-names" contenteditable="true">
+            <span>English</span>
+            <span>Malayalam</span>
+            <span>Hindi</span>
+          </div>
+          <div class="language-bars" >
+            <div class="progress-bar" style="width: 168px;"></div>
+            <div class="progress-bar" style="width: 168px;"></div>
+            <div class="progress-bar" style="width: 100px;"></div>
+          </div>
+        </div>
+      </div>
+    
+        <div class="experience-box" style="grid-column: 1; grid-row: 2;">
+          <div class="title" contenteditable="true">Experience</div>
+          <div class="job-list">
+            <div class="job last-job">
+              <div class="top-bar">
+                <span class="date" contenteditable="true">Jun. 2023 - Present</span>
+                <div class="tag" contenteditable="true"><span>most recent</span></div>
+              </div>
+              <div class="content">
+                <div class="job-info">
+                  <div class="role-name" contenteditable="true">Marketing Manager</div>
+                  <div class="about-job">
+                    <span class="company-name" contenteditable="true">Pankayam</span>
+                    <span class="separator">|</span>
+                    <span class="info" contenteditable="true">Full-time</span>
+                  </div>
+                </div>
+                <div class="featured-points" contenteditable="true">
+                  <ul>
+                    <li>Strategy development and planning of campaigns that promote the business and generate genuine traffic.</li>
+                    <li>SEO Content Creation for Blogs, Website, Social media.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="job job-2">
+              <div class="top-bar">
+                <span class="date" contenteditable="true">2017 - Present</span>
+              </div>
+              <div class="content">
+                <div class="job-info">
+                  <div class="role-name" contenteditable="true">Graphic / Web designer</div>
+                  <div class="about-job">
+                    <span class="company-name" contenteditable="true">Freelance</span>
+                  </div>
+                </div>
+                <div class="featured-points" contenteditable="true">
+                  <ul>
+                    <li>Development of internal projects from scratch, product design of brands </li>
+                    <li>Landing page, webapps and hybrid apps</li>
+                    <li>Coordinating with outside agencies, art services, web designer, marketing, printers, and colleagues as necessary.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="job job-3">
+              <div class="top-bar">
+                <span class="date" contenteditable="true">Sep. 2021 - Jun. 2023</span>
+              </div>
+              <div class="content">
+                <div class="job-info">
+                  <div class="role-name" contenteditable="true">Legal Assistant</div>
+                  <div class="about-job">
+                    <span class="company-name" contenteditable="true">Law Firm</span>
+                    <span class="separator">|</span>
+                    <span class="info" contenteditable="true">Intern</span>
+                  </div>
+                </div>
+                <div class="featured-points" contenteditable="true">
+                  <ul>
+                    <li>Provide administrative support to lawyer and enhance office effectiveness</li>
+                    <li>Handle communication with clients, witnesses etc.</li>
+                    <li>repare case briefs and summarize depositions, interrogatories and testimony</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tools-box">
+        <div class="tools-title" contenteditable="true">Tools</div>
+
+        <div class="tools-frame">
+          <div class="tool-card">
+            <div class="tool-tag"contenteditable="true"><span>design</span></div>
+            <div class="pentagrams">
+              <img src="public\logoFigma.png" />
+              <img src="public\🦆 icon _adobe photoshop_.png" />
+              <img src="public\🦆 icon _adobe illustrator_.png" />
+              <img src="public\🦆 icon _adobe premiere_.png" />
+              <img src="public\logoNotion.png" />
+              <img src="public\logoMeet.png" />
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-tag" contenteditable="true"><span>no-code</span></div>
+            <div class="pentagrams">
+              <img src="public/logoZapìer 1.png" />
+              <img src="public/logoWebflow.png" />
+              <img src="public/logoFramer.png" />
+              <img src="public/logoWordpress.png" />
+            </div>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-tag" contenteditable="true"><span>artificial intelligence</span></div>
+            <div class="pentagrams ai">
+              <img src="public/logoChatGPT 1.png" />
+              <img src="public/logoCopilot 1.png" />
+              <img src="public/logoMidjourney 1.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="educationBox">
+        <h3 class="section-title" contenteditable="true">Education</h3>
+        <div class="educationContent">
+          <div class="column-1">
+            <div class="educationCard green">
+              <div class="topBar">
+                <span class="year" contenteditable="true">2023</span>
+                <div class="heart-icon">
+                  <img src="public/Vector.png" />
+                </div>
+              </div>
+              <div class="educationName" contenteditable="true">UI/UX</div>
+              <div class="tags" contenteditable="true">
+                <span>#UX</span><span>#UI</span><span>#research</span><span>#DesignSystem</span><span>#Ui</span><span>#wireframing</span><span>#figma</span><span>#Ux</span>
+              </div>
+              <div class="schoolName" contenteditable="true">Coursera</div>
+            </div>
+            
+            <div class="educationCard white">
+              <div class="topBar"><span class="year" contenteditable="true">2017</span></div>
+              <div class="educationName" contenteditable="true">Graphic Design</div>
+              <div class="tags" contenteditable="true">
+                <span>#branding</span><span>#web</span><span>#illustration</span><span>#adobe</span>
+              </div>
+              <div class="schoolName" contenteditable="true">Coursera</div>
+            </div>
+
+          </div>
+          <div class="column-2">
+            <div class="educationCard white">
+              <div class="topBar" contenteditable="true"><span class="year">2017 - 2022</span></div>
+              <div class="educationName" contenteditable="true">Law</div>
+              <div class="tags" contenteditable="true">
+                <span>#law</span><span>#legalStudies</span><span>#contracts</span><span>#internationalLaws</span>
+              </div>
+              <div class="schoolName" contenteditable="true">University of Kerala</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="extraBox">
+        <div class="interestsBox">
+        <h3 class="section-title" contenteditable="true">Interests</h3>
+        <div class="interestsContent" contenteditable="true">
+          <span class="interestTag">branding</span>
+          <span class="interestTag">design</span>
+          <span class="interestTag">photography</span>
+          <span class="interestTag">artificial intelligence</span>
+          <span class="interestTag">illustration</span>
+          <span class="interestTag">typography</span>
+          <span class="interestTag">social networks</span>
+          <span class="interestTag">research</span>
+          <span class="interestTag">dron pilot</span>
+          <span class="interestTag">games</span>
+        </div>
+      </div>
+
+      <div class="contactBox">
+        <div class="contactTitle" contenteditable="true">Let’s chat! I’m ready to work on exciting projects</div>
+        <div class="email" contenteditable="true">srkarthik.designscape@gmail.com</div>
+        <button class="download-button" onclick="downloadResume()">Download PDF</button>
+      </div>
+      </div>
+
+      
+
+    </div> 
+  </div>
+
+  <script src="libs/html2canvas.min.js"></script>
+  <script src="libs/jspdf.umd.min.js"></script>
+
+  <script src="js/download.js" defer></script> 
+</body>
 </html>

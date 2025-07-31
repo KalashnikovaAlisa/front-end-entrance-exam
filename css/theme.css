@@ -1,0 +1,40 @@
+:root {
+  --background-main: #ffffff;
+  --background-light: #f0f0f0;
+  --text-main: #000000;
+  --text-sub: #5c5c5c;
+  --highlight: #28d979;
+
+  --border-radius: 12px;
+  --padding-box: 12px;
+  --gap-default: 20px;
+  --font-main: 'Poppins', sans-serif;
+
+  --font-size-small-small: 8px;
+  --font-size-small: 10px;
+  --font-size-medium: 12px;
+  --font-size-large: 14px;
+
+  --job-tag-bg: rgba(126, 115, 18, 0.4);
+
+  --job-tag-text-bg: rgba(221, 241, 99, 1);
+  --about-job-bg: rgba(235, 249, 242, 1);
+
+  --role-name-bg: rgba(0, 0, 0, 1);
+  --info-bg: rgba(63, 61, 61, 1);
+
+  --tools-title-color: rgba(0, 0, 0, 1);
+  --tools-tag-bg: rgba(0, 0, 0, 1);
+  --tools-tag-text: rgba(255, 255, 255, 1);
+  --tools-bg: rgba(255, 255, 255, 1);
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background-main);
+  font-family: var(--font-main);
+  color: var(--text-main);
+}
+
